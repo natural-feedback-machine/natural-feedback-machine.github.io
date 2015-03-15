@@ -6,35 +6,35 @@
 Project:    Matrix
 Version:    1
 Last change:    Initial RELEASED
-Primary use:    MultiPurpose Template  
+Primary use:    MultiPurpose Template
 Author     :    TopOne
 themeforest Account : http://www.themeforest.net/user/topone
 
 */
-/* 
-##     ##     ###     ########   ########   ####  ##     ##  
-###   ###    ## ##       ##      ##     ##   ##    ##   ##   
-#### ####   ##   ##      ##      ##     ##   ##     ## ##    
-## ### ##  ##     ##     ##      ########    ##      ###     
-##     ##  #########     ##      ##   ##     ##     ## ##    
-##     ##  ##     ##     ##      ##    ##    ##    ##   ##   
-##     ##  ##     ##     ##      ##     ##  ####  ##     ##  
+/*
+##     ##     ###     ########   ########   ####  ##     ##
+###   ###    ## ##       ##      ##     ##   ##    ##   ##
+#### ####   ##   ##      ##      ##     ##   ##     ## ##
+## ### ##  ##     ##     ##      ########    ##      ###
+##     ##  #########     ##      ##   ##     ##     ## ##
+##     ##  ##     ##     ##      ##    ##    ##    ##   ##
+##     ##  ##     ##     ##      ##     ##  ####  ##     ##
  */
-/* 
-########    #######   ########    #######   ##    ##   ########   
-   ##      ##     ##  ##     ##  ##     ##  ###   ##   ##         
-   ##      ##     ##  ##     ##  ##     ##  ####  ##   ##         
-   ##      ##     ##  ########   ##     ##  ## ## ##   ######     
-   ##      ##     ##  ##         ##     ##  ##  ####   ##         
-   ##      ##     ##  ##         ##     ##  ##   ###   ##         
-   ##       #######   ##          #######   ##    ##   ########   
+/*
+########    #######   ########    #######   ##    ##   ########
+   ##      ##     ##  ##     ##  ##     ##  ###   ##   ##
+   ##      ##     ##  ##     ##  ##     ##  ####  ##   ##
+   ##      ##     ##  ########   ##     ##  ## ## ##   ######
+   ##      ##     ##  ##         ##     ##  ##  ####   ##
+   ##      ##     ##  ##         ##     ##  ##   ###   ##
+   ##       #######   ##          #######   ##    ##   ########
  */
  /*
 
 
  TABLE OF CONTENTS
   Css Files included ".scss"
-  
+
   - screen .......... all element Base, Elements, Layout, Modules
   - styles .......... all element Base,screen, and function and grid system include in this master styles sheet file
   - Base ............ foundations, mixins, functions, vars
@@ -70,28 +70,28 @@ themeforest Account : http://www.themeforest.net/user/topone
 Project:    Matrix
 Version:    1
 Last change:    Initial RELEASED
-Primary use:    MultiPurpose Template  
+Primary use:    MultiPurpose Template
 Author     :    TopOne
 themeforest Account : http://www.themeforest.net/user/topone
 
 */
-/* 
-##     ##     ###     ########   ########   ####  ##     ##  
-###   ###    ## ##       ##      ##     ##   ##    ##   ##   
-#### ####   ##   ##      ##      ##     ##   ##     ## ##    
-## ### ##  ##     ##     ##      ########    ##      ###     
-##     ##  #########     ##      ##   ##     ##     ## ##    
-##     ##  ##     ##     ##      ##    ##    ##    ##   ##   
-##     ##  ##     ##     ##      ##     ##  ####  ##     ##  
+/*
+##     ##     ###     ########   ########   ####  ##     ##
+###   ###    ## ##       ##      ##     ##   ##    ##   ##
+#### ####   ##   ##      ##      ##     ##   ##     ## ##
+## ### ##  ##     ##     ##      ########    ##      ###
+##     ##  #########     ##      ##   ##     ##     ## ##
+##     ##  ##     ##     ##      ##    ##    ##    ##   ##
+##     ##  ##     ##     ##      ##     ##  ####  ##     ##
  */
-/* 
-########    #######   ########    #######   ##    ##   ########   
-   ##      ##     ##  ##     ##  ##     ##  ###   ##   ##         
-   ##      ##     ##  ##     ##  ##     ##  ####  ##   ##         
-   ##      ##     ##  ########   ##     ##  ## ## ##   ######     
-   ##      ##     ##  ##         ##     ##  ##  ####   ##         
-   ##      ##     ##  ##         ##     ##  ##   ###   ##         
-   ##       #######   ##          #######   ##    ##   ########   
+/*
+########    #######   ########    #######   ##    ##   ########
+   ##      ##     ##  ##     ##  ##     ##  ###   ##   ##
+   ##      ##     ##  ##     ##  ##     ##  ####  ##   ##
+   ##      ##     ##  ########   ##     ##  ## ## ##   ######
+   ##      ##     ##  ##         ##     ##  ##  ####   ##
+   ##      ##     ##  ##         ##     ##  ##   ###   ##
+   ##       #######   ##          #######   ##    ##   ########
  */
  /*
 
@@ -300,13 +300,13 @@ video {
   Define the fonts used in this app and declare silent
   classes to be used in your CSS.
 
-  If you are using a webfont that you're hosting, add 
-  the @embed-font() mixin from base/_mixin-font-face-importer.scs 
+  If you are using a webfont that you're hosting, add
+  the @embed-font() mixin from base/_mixin-font-face-importer.scs
   before you declare your fonts.
 
   Usage: Create a font-family named "interstate-light" using a font at /fonts/interstate_light-webfont.woff (and other extensions)
   @include embed-font("interstate-light", "/fonts/interstate_light-webfont");
-  
+
   If you are using Google Fonts, you can add the
   import code before you declare your fonts.
 
@@ -396,7 +396,7 @@ body {
 
   These are made active by adding classes to the HTML
   element. A JS system to toggle these classes is in
-  the works. 
+  the works.
 
   This partial requires:
   * base/_vars.scss
@@ -405,7 +405,7 @@ body {
 -------------------------------------------------------- */
 /* @highlight elements at breakpoint
 --------------------------------------------------------
-  
+
   Highlight an element at certain breakpoints by changing
   its color;
 
@@ -466,7 +466,7 @@ body {
 
 /* @highlight grids in dev mode
 --------------------------------------------------------
-  
+
   Indicate grids using responsive widths at certain breakpoints.
 
   Add .dev--grids to the HTML element to enable this.
@@ -554,7 +554,7 @@ body {
 
 /* @show the current breakpoint
 --------------------------------------------------------
-  
+
   Adds a badge to the bottom right of the body to show
   the current breakpoint.
 
@@ -1669,7 +1669,7 @@ img {
 -----------------------------------------------------------
 
   use this classes to embeded full background with content
-  
+
   Example:
 
   <div class="img-holder">
@@ -2023,7 +2023,7 @@ em {
     <div class="g">...</div>
     <div class="g">...</div>
   </div>
-  
+
   NOTE: see some test styles at the bottom of this partial
   Remove them if you don't need them.
 
@@ -2254,13 +2254,13 @@ em {
     <div class="g"><img src="http://fillmurray.com/500/300"></div>
     <div class="g"><img src="http://fillmurray.com/500/300"></div>
   </div><!--/gw-->
-  
-  
+
+
 
 -----------------------------------------------------  */
 /*
-  
-  Widths at default Viewport 
+
+  Widths at default Viewport
 
 ---------------------------------------------------- */
 .one-up > * {
@@ -2311,8 +2311,8 @@ em {
   width: 8.33333%;
 }
 
-/* 
-  
+/*
+
   Responsive ups at $breakpoint__xs
 
 ---------------------------------------------------- */
@@ -2365,8 +2365,8 @@ em {
     width: 8.33333%;
   }
 }
-/* 
-  
+/*
+
   Responsive ups at $breakpoint__sm
 
 ---------------------------------------------------- */
@@ -2419,8 +2419,8 @@ em {
     width: 8.33333%;
   }
 }
-/* 
-  
+/*
+
   Responsive ups at $breakpoint__md
 
 ---------------------------------------------------- */
@@ -2473,8 +2473,8 @@ em {
     width: 8.33333%;
   }
 }
-/* 
-  
+/*
+
   Responsive ups at $breakpoint__lg
 
 ---------------------------------------------------- */
@@ -2527,8 +2527,8 @@ em {
     width: 8.33333%;
   }
 }
-/* 
-  
+/*
+
   Responsive ups at $breakpoint__xl
 
 ---------------------------------------------------- */
@@ -2581,8 +2581,8 @@ em {
     width: 8.33333%;
   }
 }
-/* 
-  
+/*
+
   Responsive ups at $breakpoint__xxl
 
 ---------------------------------------------------- */
@@ -2659,8 +2659,8 @@ em {
 
 ---------------------------------------------------------  */
 /*
-  
-  Widths at default Viewport 
+
+  Widths at default Viewport
 
 ---------------------------------------------------- */
 .one-whole {
@@ -2975,8 +2975,8 @@ em {
   width: 100%;
 }
 
-/* 
-  
+/*
+
   Responsive widths at $breakpoint__xs
 
 ---------------------------------------------------- */
@@ -3293,8 +3293,8 @@ em {
     width: 100%;
   }
 }
-/* 
-  
+/*
+
   Responsive widths at $breakpoint__sm
 
 ---------------------------------------------------- */
@@ -3611,8 +3611,8 @@ em {
     width: 100%;
   }
 }
-/* 
-  
+/*
+
   Responsive widths at $breakpoint__md
 
 ---------------------------------------------------- */
@@ -3929,8 +3929,8 @@ em {
     width: 100%;
   }
 }
-/* 
-  
+/*
+
   Responsive widths at $breakpoint__lg
 
 ---------------------------------------------------- */
@@ -4247,8 +4247,8 @@ em {
     width: 100%;
   }
 }
-/* 
-  
+/*
+
   Responsive widths at $breakpoint__xl
 
 ---------------------------------------------------- */
@@ -4565,8 +4565,8 @@ em {
     width: 100%;
   }
 }
-/* 
-  
+/*
+
   Responsive widths at $breakpoint__xxl
 
 ---------------------------------------------------- */
@@ -5195,8 +5195,8 @@ em {
   modules/_callouts.scss
 --------------------------------------------------------
 
-  Callouts, are sections of featured content that usually 
-  contain an icon, a title, and some text. These are 
+  Callouts, are sections of featured content that usually
+  contain an icon, a title, and some text. These are
   usually in a row, and call attention to highlighted features.
 
   Example: Callout
@@ -5818,7 +5818,7 @@ header#main.video-wrapper:after {
 }
 
 /* ==========================================================================
-   header Contact image 
+   header Contact image
    ========================================================================== */
 header#main.contact-image:after {
   position: absolute;
@@ -5936,7 +5936,7 @@ header#main.type-writer:after {
 }
 
 /* ==========================================================================
-   Main Navigation and Dropdown menu 
+   Main Navigation and Dropdown menu
    ========================================================================== */
 #content {
   /*=========================================
@@ -5954,7 +5954,7 @@ header#main.type-writer:after {
   }
 }
 #content #main-nav .branding {
-  color: #DD2C00;
+  color: #000000;
   font-size: 1.25em;
   display: block;
   text-transform: uppercase;
@@ -6455,7 +6455,7 @@ article#services .left-row {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   /* ==========================================================================
-     Client section 
+     Client section
      ========================================================================== */
 }
 article#services .left-row .client {
@@ -6588,7 +6588,7 @@ article#services .boxa p {
 }
 
 /* ==========================================================================
-   services pages 2 
+   services pages 2
    ========================================================================== */
 article.services_2 section {
   background: #fff;
@@ -6939,7 +6939,7 @@ article.services_3 section:nth-of-type(2) aside small {
 }
 
 /* ==========================================================================
-   main protfolio images 
+   main protfolio images
    ========================================================================== */
 #portfolio a {
   display: block;
@@ -7885,7 +7885,7 @@ blog thumbs wrapper
 }
 
 /* ==========================================================================
-   footer 
+   footer
    ========================================================================== */
 .site-footer {
   padding: 0 !important;
@@ -7979,7 +7979,7 @@ blog thumbs wrapper
 }
 
  /* ==========================================================================
-Blog Page style 1 Metro 
+Blog Page style 1 Metro
 ========================================================================== */
 .blog-wrapper.long {
   min-height: 45.5625em !important;
@@ -8820,14 +8820,14 @@ section.content button:hover {
 /* ==========================================================================
    Contacts US Page
    ========================================================================== */
-/* 
- ######     #######   ##    ##   ########      ###      ######    ########   
-##    ##   ##     ##  ###   ##      ##        ## ##    ##    ##      ##      
-##         ##     ##  ####  ##      ##       ##   ##   ##            ##      
-##         ##     ##  ## ## ##      ##      ##     ##  ##            ##      
-##         ##     ##  ##  ####      ##      #########  ##            ##      
-##    ##   ##     ##  ##   ###      ##      ##     ##  ##    ##      ##      
- ######     #######   ##    ##      ##      ##     ##   ######       ##      
+/*
+ ######     #######   ##    ##   ########      ###      ######    ########
+##    ##   ##     ##  ###   ##      ##        ## ##    ##    ##      ##
+##         ##     ##  ####  ##      ##       ##   ##   ##            ##
+##         ##     ##  ## ## ##      ##      ##     ##  ##            ##
+##         ##     ##  ##  ####      ##      #########  ##            ##
+##    ##   ##     ##  ##   ###      ##      ##     ##  ##    ##      ##
+ ######     #######   ##    ##      ##      ##     ##   ######       ##
  */
 /*==========================================
 =            Form Section Style            =
@@ -8939,14 +8939,14 @@ section.content button:hover {
   text-decoration: none;
 }
 
-/* 
-########   ########   ####   ######    ####  ##    ##    ######    
-##     ##  ##     ##   ##   ##    ##    ##   ###   ##   ##    ##   
-##     ##  ##     ##   ##   ##          ##   ####  ##   ##         
-########   ########    ##   ##          ##   ## ## ##   ##   ####  
-##         ##   ##     ##   ##          ##   ##  ####   ##    ##   
-##         ##    ##    ##   ##    ##    ##   ##   ###   ##    ##   
-##         ##     ##  ####   ######    ####  ##    ##    ######    
+/*
+########   ########   ####   ######    ####  ##    ##    ######
+##     ##  ##     ##   ##   ##    ##    ##   ###   ##   ##    ##
+##     ##  ##     ##   ##   ##          ##   ####  ##   ##
+########   ########    ##   ##          ##   ## ## ##   ##   ####
+##         ##   ##     ##   ##          ##   ##  ####   ##    ##
+##         ##    ##    ##   ##    ##    ##   ##   ###   ##    ##
+##         ##     ##  ####   ######    ####  ##    ##    ######
  */
 /* ==========================================================================
    pricing tables section
