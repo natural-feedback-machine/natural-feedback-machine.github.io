@@ -227,7 +227,8 @@
                     disableDefaultUI: false,
                     // mapTypeControl: true,
                     // zoomControl: true,
-                    zoom: 12
+                    zoom: 12,
+                    center: new google.maps.LatLng(52.517291, 13.408091)
                 }
             }
         });
